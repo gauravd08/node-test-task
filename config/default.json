@@ -1,0 +1,8 @@
+{
+  "BASE_PATH": "/api/v1/",
+  "MONGO_CRED": {
+    "MONGO_USER": "gauravd08",
+    "MONGO_PASSWORD": "h0tl6ssJ40VYe0x7",
+    "MONGO_PATH": "@graphql-node-tpczh.mongodb.net/test?retryWrites=true&w=majority" 
+  }
+}
