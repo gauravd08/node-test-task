@@ -21,8 +21,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id:AKIAZMXBJDQ6MZ3HGYOZ
-          aws-secret-access-key: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
+          aws-access-key-id: AKIAZMXBJDQ6MZ3HGYOZ
+          aws-secret-access-key: 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
           aws-region: us-east-2
       # Step 5
       - name: Build Application and Run unit Test
@@ -37,8 +37,8 @@ jobs:
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
         with:
-          aws-access-key-id:AKIAZMXBJDQ6MZ3HGYOZ
-          aws-secret-access-key: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
+          aws-access-key-id: AKIAZMXBJDQ6MZ3HGYOZ
+          aws-secret-access-key: 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
           aws-region: us-east-2
      # Step 2
       - name: Create CodeDeploy Deployment
