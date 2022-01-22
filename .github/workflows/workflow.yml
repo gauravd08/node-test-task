@@ -25,8 +25,8 @@ jobs:
           aws-secret-access-key: +NUXtH5SWq8ecQfHaL+615Yg7+oxeFR3AMerXjgG
           aws-region: us-east-2
       # Step 5
-      - name: Build Application and Run unit Test
-        run: python app.py & pytest
+      #- name: Build Application and Run unit Test
+      #  run: python app.py & pytest
 
   continuous-deployment:
     runs-on: ubuntu-latest
@@ -45,7 +45,7 @@ jobs:
         id: deploy
         run: |
           aws deploy create-deployment \
-            --application-name application-name \
-            --deployment-group-name AppDeploymentGroupName \
+            --application-name node-test \
+            --deployment-group-name app-deployment-group \
             --deployment-config-name CodeDeployDefault.OneAtATime \
             --github-location repository=${{ github.repository }},commitId=${{ github.sha }}
