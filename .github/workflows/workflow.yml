@@ -15,7 +15,7 @@ jobs:
         with:
           python-version: 3.7
       # Step 3
-      - name: Install dependencies
+    #  - name: Install dependencies
 #        run: pip install -r requirements.txt
       # Step 4
       - name: Configure AWS credentials
