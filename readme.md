@@ -16,3 +16,5 @@ npm run dev
 visit: http://locahost:3000/api-docs in your browser.
 
 ## yo continious integration working finally.
+
+## AWS pipeline integration
